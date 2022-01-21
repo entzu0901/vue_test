@@ -1,10 +1,10 @@
-export default function(key){
-    return{
-        load(){
-            return JSON.parse(window.localStorage.getItem(key)||'null')
-        },
-        save(data){
-            window.localStorage.setItem('key',JSON.stringify(date))
-        }
+export default function (KEY) {
+    return {
+      load () {
+        return JSON.parse(window.localStorage.getItem(KEY) || 'null')
+      },
+      save (data) {
+        window.localStorage.setItem(KEY, JSON.stringify(data))
+      }
     }
-}
+  }

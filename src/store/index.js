@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import LocalStorage from '../modules/LocalStorage'
+import LocalStorage from '../modules/localStorage'
 
 Vue.use(Vuex)
 
